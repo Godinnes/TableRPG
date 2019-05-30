@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Domain", "God.Characters\God.Characters.Domain.csproj", "{4B9AA8F4-9F5E-4058-A37A-4342363BB029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Application", "God.Characters.Application\God.Characters.Application.csproj", "{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Api", "God.Characters.Api\God.Characters.Api.csproj", "{6B625C4B-3B69-4658-B511-FC8904941497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Common", "God.Characters.Common\God.Characters.Common.csproj", "{131A0D7B-AE61-4200-82AD-23287D0D038E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Bootstrap", "God.Characters.Bootstrap\God.Characters.Bootstrap.csproj", "{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Database", "God.Characters.Database\God.Characters.Database.csproj", "{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B9AA8F4-9F5E-4058-A37A-4342363BB029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9AA8F4-9F5E-4058-A37A-4342363BB029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9AA8F4-9F5E-4058-A37A-4342363BB029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9AA8F4-9F5E-4058-A37A-4342363BB029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B625C4B-3B69-4658-B511-FC8904941497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B625C4B-3B69-4658-B511-FC8904941497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B625C4B-3B69-4658-B511-FC8904941497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B625C4B-3B69-4658-B511-FC8904941497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131A0D7B-AE61-4200-82AD-23287D0D038E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131A0D7B-AE61-4200-82AD-23287D0D038E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131A0D7B-AE61-4200-82AD-23287D0D038E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131A0D7B-AE61-4200-82AD-23287D0D038E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B101A44-93D6-4B7A-965C-1DA00F5C7CA3}
+	EndGlobalSection
+EndGlobal
