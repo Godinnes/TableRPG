@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.RPG", "God.RPG\God.RPG.csproj", "{AEABF998-C8C6-4FF1-B72D-A5892D3404E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEABF998-C8C6-4FF1-B72D-A5892D3404E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEABF998-C8C6-4FF1-B72D-A5892D3404E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEABF998-C8C6-4FF1-B72D-A5892D3404E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEABF998-C8C6-4FF1-B72D-A5892D3404E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A02BD2D-3635-455B-A44F-79B10C12B930}
+	EndGlobalSection
+EndGlobal

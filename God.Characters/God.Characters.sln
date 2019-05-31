@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Domain", "God.Characters.Domain\God.Characters.Domain.csproj", "{4B9AA8F4-9F5E-4058-A37A-4342363BB029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.Characters.Domain", "src\God.Characters.Domain\God.Characters.Domain.csproj", "{4B9AA8F4-9F5E-4058-A37A-4342363BB029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Application", "God.Characters.Application\God.Characters.Application.csproj", "{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.Characters.Application", "src\God.Characters.Application\God.Characters.Application.csproj", "{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Api", "God.Characters.Api\God.Characters.Api.csproj", "{6B625C4B-3B69-4658-B511-FC8904941497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.Characters.Api", "src\God.Characters.Api\God.Characters.Api.csproj", "{6B625C4B-3B69-4658-B511-FC8904941497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Common", "God.Characters.Common\God.Characters.Common.csproj", "{131A0D7B-AE61-4200-82AD-23287D0D038E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.Characters.Common", "src\God.Characters.Common\God.Characters.Common.csproj", "{131A0D7B-AE61-4200-82AD-23287D0D038E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Bootstrap", "God.Characters.Bootstrap\God.Characters.Bootstrap.csproj", "{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.Characters.Bootstrap", "src\God.Characters.Bootstrap\God.Characters.Bootstrap.csproj", "{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "God.Characters.Database", "God.Characters.Database\God.Characters.Database.csproj", "{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.Characters.Infrastructure", "src\God.Characters.Database\God.Characters.Infrastructure.csproj", "{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECB022BC-6087-4057-816A-CBFA02F62E05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D43A7314-E349-4F58-AEF2-8DB786092DA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "God.RPG", "..\God.RPG\God.RPG\God.RPG.csproj", "{C65F9F02-F7C1-4595-B24E-00FA1721104C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +51,21 @@ Global
 		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65F9F02-F7C1-4595-B24E-00FA1721104C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65F9F02-F7C1-4595-B24E-00FA1721104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65F9F02-F7C1-4595-B24E-00FA1721104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65F9F02-F7C1-4595-B24E-00FA1721104C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B9AA8F4-9F5E-4058-A37A-4342363BB029} = {ECB022BC-6087-4057-816A-CBFA02F62E05}
+		{A9C5FADE-8B71-49F9-ABFF-F6BB97E06B63} = {ECB022BC-6087-4057-816A-CBFA02F62E05}
+		{6B625C4B-3B69-4658-B511-FC8904941497} = {ECB022BC-6087-4057-816A-CBFA02F62E05}
+		{131A0D7B-AE61-4200-82AD-23287D0D038E} = {ECB022BC-6087-4057-816A-CBFA02F62E05}
+		{D3F0DE93-5BE3-43F2-901A-D3D052FE8D7A} = {ECB022BC-6087-4057-816A-CBFA02F62E05}
+		{0BE7C677-4EEC-410F-9A43-F72F73F9ED62} = {ECB022BC-6087-4057-816A-CBFA02F62E05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B101A44-93D6-4B7A-965C-1DA00F5C7CA3}

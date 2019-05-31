@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "Strength",
+    "Description": "Força"
+  },
+  {
+    "Type": "Constitution",
+    "Description": "Constituição"
+  },
+  {
+    "Type": "Dextreza",
+    "Description": "Dextresa"
+  },
+  {
+    "Type": "Inteligence",
+    "Description": "Inteligência"
+  },
+  {
+    "Type": "Wisdom",
+    "Description": "Sabedoria"
+  },
+  {
+    "Type": "Charisma",
+    "Description": "Carisma"
+  }
+]
