@@ -6,12 +6,10 @@
 
   <ItemGroup>
     <None Remove="Resources\Attributes\Attributes.json" />
-    <None Remove="Resources\Modifier\Modifiers.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\Attributes\Attributes.json" />
-    <EmbeddedResource Include="Resources\Modifier\Modifiers.json" />
   </ItemGroup>
 
   <ItemGroup>

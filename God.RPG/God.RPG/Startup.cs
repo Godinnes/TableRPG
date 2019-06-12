@@ -1,5 +1,5 @@
-﻿using God.Characters.Common.Resources.Attributes;
-using God.Characters.Common.Resources.Modifier;
+﻿using God.Characters.Application.Services;
+using God.Characters.Common.Resources.Attributes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -22,7 +22,7 @@ namespace God.RPG
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<AttributeRepository>();
-            services.AddSingleton<ModifierRepository>();
+            services.AddScoped<ModifierService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

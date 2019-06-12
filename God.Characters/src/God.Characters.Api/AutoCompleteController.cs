@@ -1,21 +1,21 @@
-﻿using God.Characters.Common.Resources.Attributes;
-using God.Characters.Common.Resources.Modifier;
+﻿using God.Characters.Application.Services;
+using God.Characters.Common.Resources.Attributes;
 using Microsoft.AspNetCore.Mvc;
 
 namespace God.Characters.Api
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class AutoCompleteController : Controller
     {
         private readonly AttributeRepository _attributeRepository;
-        private readonly ModifierRepository _modifierRepository;
-        public AutoCompleteController(AttributeRepository attributeRepository, ModifierRepository modifierRepository)
+        private readonly ModifierService _modifierService;
+        public AutoCompleteController(AttributeRepository attributeRepository, ModifierService modifierService)
         {
             _attributeRepository = attributeRepository;
-            _modifierRepository = modifierRepository;
+            _modifierService = modifierService;
         }
-        [HttpGet("attributes")]
+        [HttpGet("attributes/all")]
         public IActionResult GetAllAttributes()
         {
             var attributes = _attributeRepository.GetAll();
@@ -24,8 +24,10 @@ namespace God.Characters.Api
         [HttpGet("modifier/{value}")]
         public IActionResult SearchModifier(int value)
         {
-            var modifier = _modifierRepository.Search(value);
+            var modifier = _modifierService.Value(value);
             return Ok(modifier);
         }
+
+
     }
 }

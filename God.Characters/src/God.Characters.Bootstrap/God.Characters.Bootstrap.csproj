@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\God.Characters.Application\God.Characters.Application.csproj" />
     <ProjectReference Include="..\God.Characters.Common\God.Characters.Common.csproj" />
   </ItemGroup>
 
